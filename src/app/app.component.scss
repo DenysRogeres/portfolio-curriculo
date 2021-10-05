@@ -1,9 +1,7 @@
 mat-sidenav {
-    margin-top: 1px;
     width: 200px;
     background: rgb(0, 0, 0);
     color: rgb(2, 2, 2);
-    padding: 20px;
     text-align: center;
 }
 
@@ -56,5 +54,15 @@ mat-sidenav-container {
 mat-divider {
     margin-top: 16px;
     margin-bottom: 16px;
-    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(253, 242, 242);
+}
+
+.divider {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+mat-sidenav-content {
+    background-color: rgb(184, 183, 183);
 }

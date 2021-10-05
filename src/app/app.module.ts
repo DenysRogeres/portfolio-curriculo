@@ -10,11 +10,13 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { HelpComponent } from './pages/help/help.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
+    HelpComponent,
   ],
   imports: [
     BrowserModule,
